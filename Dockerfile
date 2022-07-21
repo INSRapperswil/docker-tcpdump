@@ -1,6 +1,6 @@
-FROM alpine:3.11
+FROM alpine:3.16
 
-LABEL maintainer="Yannick Zwicker <yzwicker@ins.hsr.ch>"
+LABEL maintainer="INS OST"
 
 COPY --chown=root:root docker-entrypoint.sh /docker-entrypoint.sh
 
